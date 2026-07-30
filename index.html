@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        
+        <style>
+
+        .container-fluid {
+            background-color: magenta;
+            text-align: center;
+            padding-top: 3em;
+            padding-bottom: 3em;
+        }
+
+        .image {
+            position: relative;
+            width: 50%;
+        }
+        .image:hover .overlay {
+            opacity: 1;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: lightblue;
+            padding: 0.5rem;
+            border-radius: 6px;
+        }
+
+        .cheese-products,
+        .spud-products,
+        .rinna-products,
+        .biscuit-product {
+            margin-top: 2em;
+        }
+
+        span {
+            color: darkgreen;
+        }
+
+        .logo {
+            margin-top: 4em;
+            box-sizing: border-box;
+            padding-right: 3em;
+            border: 2px solid black;
+            border-radius: 100px;
+        }
+
+        .btn-success {
+            margin-top: 5em;
+            margin-left: 1em;
+        }
+
+        </style>
+
+        <title>Purchase here!</title>
+
+    </head>
+
+    <body>
+
+        <header class="container-fluid"><h1>>>>Purchase all your kitties here!<<<</h1>Cat hair included!</header>
+
+        <main>
+            
+            <div class="container">
+                <div class="row cheese-products">
+                    <div class="col-lg-4"><b>Normal Cheese</b><br><span>£3.99</span><br>
+                        <div class="image">
+                            <img src="./images/cheese1.png" class="rounded  img-fluid">
+                            <div class="overlay">A lovely cheese!</div>
+                            <br>
+                        </div><br>
+                        <button type="button" class="btn btn-primary">Buy now!</button>
+                    </div>
+
+                    <div class="col-lg-4"><b>Extra-happy Cheese</b><br><span>£5.99</span><br>
+                        <div class="image">
+                            <img src="./images/cheese2.png" class="rounded  img-fluid">
+                            <div class="overlay">Cheese with extra happiness</div>
+                            <br>
+                        </div><br>
+                        <button type="button" class="btn btn-primary">Buy now!</button>
+                    </div>
+
+                    <div class="col-lg-4"><b>Cheesestring</b><br><span>£2.99</span><br>
+                        <div class="image">
+                            <img src="./images/cheese3.png" class="rounded  img-fluid">
+                            <div class="overlay">The Cheese with a lengthy appendage</div>
+                            <br>
+                        </div><br>
+                        <button type="button" class="btn btn-primary">Buy now!</button>
+                    </div>
+                </div>
+
+                <div class="row spud-products">
+                    <div class="col-lg-4"><b>Normal Spud</b><br><span>£3.99</span><br>
+                        <div class="image">
+                            <img src="./images/spud1.png" class="rounded  img-fluid">
+                            <div class="overlay">A regular soft Spud</div>
+                            <br>
+                        </div><br>
+                        <button type="button" class="btn btn-primary">Buy now!</button>
+                    </div>
+
+                    <div class="col-lg-4"><b>Dangerous Spud</b><br><span>£4.99</span><br>
+                        <div class="image">
+                            <img src="./images/spud2.png" class="rounded  img-fluid">
+                            <div class="overlay">Watch out! A more dangerous Spud!</div>
+                            <br>
+                        </div><br>
+                        <button type="button" class="btn btn-primary">Buy now!</button>
+                    </div>
+
+                    <div class="col-lg-4"><b>Miniature Spud</b><br><span>£499.00</span><br>
+                        <div class="image">
+                            <img src="./images/spud3.png" class="rounded img-fluid">
+                            <div class="overlay">This Spud is extremely little. Extra caution is advised!</div>
+                            <br>
+                        </div><br>
+                        <button type="button" class="btn btn-primary">Buy now!</button>
+                    </div>
+                </div>
+
+                <div class="row rinna-products">
+                    <div class="col-lg-4"><b>Normal Rinna</b><br><span>£3.99</span><br>
+                        <div class="image">
+                            <img src="./images/rinna1.png" class="rounded img-fluid">
+                            <div class="overlay">A beautiful and refined Lady Rinna!</div>
+                            <br>
+                        </div><br>
+                        <button type="button" class="btn btn-primary">Buy now!</button>
+                    </div>
+
+                    <div class="col-lg-4"><b>Observant Rinna</b><br><span>£5.99</span><br>
+                        <div class="image">
+                            <img src="./images/rinna2.png" class="rounded img-fluid">
+                            <div class="overlay">This Rinna pays extra close attention (in case you have any raw chicken going spare...)</div>
+                            <br>
+                        </div><br>
+                        <button type="button" class="btn btn-primary">Buy now!</button>
+                    </div>
+
+                    <div class="col-lg-4"><b>Rinna [Special Shape]</b><br><span>£11.99</span><br>
+                        <div class="image">
+                            <img src="./images/rinna3.png" class="rounded img-fluid">
+                            <div class="overlay">Easily one of the most unique shapes of Rinna on the market today. The unique silhouette explains the higher price.</div>
+                            <br>
+                        </div><br>
+                        <button type="button" class="btn btn-primary">Buy now!</button>
+                    </div>
+                </div>
+
+                <div class="row biscuit-product">
+                    <div class="col-lg-4"><b>Perfectly Normal Standard Cat</b><br><span>£4.99</span><br>
+                        <div class="image">
+                            <img src="./images/ERRORKITTY.png" class="rounded img-fluid">
+                            <div class="overlay">Due to an administrative error this item was incorrectly ordered for the "cat" section. However due to its cuteness we have decided not to offer a discount at this time.</div>
+                            <br>
+                        </div><br>
+                        <button type="button" class="btn btn-danger">Buy now at your own risk!</button>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <hr>
+            <br>
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-1">
+                                <div class="logo">
+                                    <a title="Temaki contributors, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Pawprint_Pinhead_icon.svg"><img width="50" alt="Pawprint Pinhead icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Pawprint_Pinhead_icon.svg/250px-Pawprint_Pinhead_icon.svg.png"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-1"></div>
+                        </div>
+                        <div class="col-sm-3">
+                            <form>
+                                <label for="firstname" class="form-label">First name</label>
+                                <input type="text" class="form-control" placeholder="First name">
+                                <br>
+                                <label for="tel" class="form-label">Telephone</label>
+                                <input type="text" class="form-control" placeholder="Telephone">
+                            </form>
+                        </div>
+                        <div class="col-sm-3">
+                            <form>
+                                <label for="lastname" class="form-label">Last name</label>
+                                <input type="text" class="form-control" placeholder="Last name">
+                                <br>
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="text" class="form-control" placeholder="E-mail">
+                            </form>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-sm-1">
+                                <button type="button" class="btn btn-success">Submit!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </footer>
+            
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+
+
+</html>
