@@ -1,0 +1,154 @@
+.container-fluid {
+    background-color: magenta;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#welcomeOverlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#welcomeBox {
+    position: relative;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#close {
+    text-decoration: underline;
+    font-size: smaller;
+    text-align: right;
+}
+
+#noCookies {
+    text-decoration: underline;
+}
+
+.image {
+    position: relative;
+    width: 50%;
+}
+        
+.image:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: lightblue;
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+
+.cheese-products,
+.spud-products,
+.rinna-products,
+.biscuit-product {
+    margin-top: 2em;
+}
+
+.title {
+    font-weight: bold;
+    color: black;
+}
+
+span {
+    color: darkgreen;
+}
+
+.logo {
+    margin-top: 4em;
+    box-sizing: border-box;
+    padding-right: 3em;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.btn-success {
+    margin-top: 5em;
+    margin-left: 1em;
+}
+
+#cartDIVOverlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#closeButton {
+    text-align: right;
+}
+
+#showCart {
+    position: absolute;
+    width: 500px;
+    padding: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-right: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+#submitBtn {
+    position: relative;
+}
+
+#settingsBtn {
+    float: right;
+    margin-right: 22em;
+}
